@@ -4,15 +4,44 @@ body {
     box-sizing: border-box;
     font-size: 80%;
 
-
     background-color: #26538a;
     color: white;
+}
 
+a, li{
+    text-decoration: none !important;
+    list-style: none;
+}
 
+a, li:hover{
+    text-decoration: none !important;
+    list-style: none;
 }
 
 h1,
 h2,
 h3 {
     font-family: 'Roboto', sans-serif !important;
+}
+
+
+/*HEADER*/
+.cabecalho {
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 90%;
+}
+
+.cabecalho img{
+    width: 100px;
+}
+
+
+/*BOTAO SAIR*/
+.btn-outline-primary {
+    color: #ffffff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffffff;
 }
