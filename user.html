@@ -42,120 +42,140 @@
       <div class="search-title">
         <h2>Bem Vindo(a), Klaytson Pereira</h2>
         <p>Procure aqui a atividade que deseja realizar</p>
-        <input class="form-control search-input" id="myInput" type="text" placeholder="Search..">
+        <input class="form-control search-input" id="inputSearch" onkeyup="Pesquisar()" type="text"
+          placeholder="Pesquisar atividade">
       </div>
     </div>
   </section>
 
-  <div class="container">
+  <div class="album py-5 geral">
+    <div class="container">
+      <div class="row" id="card-container">
 
-    <div class="album py-5">
-      <div class="container">
-  
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h5 class="card-title">ALTERAR CNPJ</h5>
-              </div>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                    <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>              
-                </div>
+        <div class="col-md-4 card-geral">
+          <div class="card mb-4">
+            <div class="card-header">
+              <h5 class="card-title">ALTERAR CNPJ</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h5 class="card-title">CANCELAR TERMO ADITIVO</h5>
-              </div>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                    <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>              
-                </div>
+        <div class="col-md-4 card-geral">
+          <div class="card mb-4">
+            <div class="card-header">
+              <h5 class="card-title">CANCELAR TERMO ADITIVO</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h5 class="card-title">CANCELAR CONTRATO</h5>
-              </div>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                    <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>              
-                </div>
+        <div class="col-md-4 card-geral">
+          <div class="card mb-4">
+            <div class="card-header">
+              <h5 class="card-title">CANCELAR CONTRATO</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h5 class="card-title">MUDAR DATA DE DESLIGAMENTO</h5>
-              </div>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                    <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>              
-                </div>
+        <div class="col-md-4 card-geral">
+          <div class="card mb-4">
+            <div class="card-header">
+              <h5 class="card-title">MUDAR DATA DE DESLIGAMENTO</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h5 class="card-title">ALTERAR CNPJ</h5>
-              </div>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                    <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>              
-                </div>
+        <div class="col-md-4 card-geral">
+          <div class="card mb-4">
+            <div class="card-header">
+              <h5 class="card-title">ALTERAR CNPJ</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <div class="card-header">
-                <h5 class="card-title">ALTERAR CNPJ</h5>
-              </div>
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                    <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>              
-                </div>
+        <div class="col-md-4 card-geral">
+          <div class="card mb-4">
+            <div class="card-header">
+              <h5 class="card-title">ALTERAR CNPJ</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <button type="button" class="btn btn-sm btn-primary btn-lg btn-block">ALTERAR</button>
               </div>
             </div>
           </div>
+        </div>
 
-
-
+      </div>
     </div>
 
-  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-  </script>
+    <!--FUNÇÃO FILTRO-->
+    <script>
+      function Pesquisar() {
 
-  <!--FUNÇÃO FILTRO-->
-  <script>
-  </script>
+        var inputx = document.querySelector("#inputSearch");
+        var filter = inputx.value.toUpperCase();
+        var cardContainer = document.getElementById('card-container');
+        var cards = cardContainer.getElementsByClassName('card-geral');
+
+        
+        for (i = 0; i < cards.length; i++) {
+          title = cards[i].querySelector('.card-title');
+          console.log(title);
+          if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+            cards[i].style.display = "";
+          } else {
+            cards[i].style.display = "none";
+          }
+        }
+      }
+    </script>
 </body>
 
 </html>
