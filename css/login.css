@@ -1,6 +1,22 @@
+
+
+.bg-container {
+    position: relative;
+}
+
+#bg-grad {
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    left: -800px;
+    top: -200px;
+    z-index: -1;
+}
+
+
+
 .login-card {
     padding: 3rem 1rem 3rem 1rem;
-    margin: 0 auto;
 
     background-color: white;
     color: #26538a;
@@ -37,6 +53,6 @@
 
 @media (min-width: 992px) {
     .col-md-4 {
-        max-width: 33.33333%;
+        max-width: 30.0%;
     }
 }

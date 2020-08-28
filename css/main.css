@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     font-size: 80%;
 
-    background-color: #26538a;
+    background-color: #ffffff;
     color: white;
 }
 
@@ -28,15 +28,18 @@ h3 {
 /*HEADER*/
 .cabecalho {
     margin: 0 auto;
-    padding-top: 1rem;
     padding-bottom: 2rem;
-    width: 90%;
+    width: 80%;
 }
 
-.cabecalho img{
-    width: 100px;
+.cabecalho #logo-ciee{
+    width: 125px;
 }
 
+
+.cabecalho #logo-depin{
+    width: 180px;
+}
 
 /*BOTAO SAIR*/
 .btn-outline-primary {
